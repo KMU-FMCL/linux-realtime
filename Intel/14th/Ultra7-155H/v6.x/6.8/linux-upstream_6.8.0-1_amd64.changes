@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Mon, 17 Feb 2025 14:54:51 +0900
+Source: linux-upstream
+Binary: linux-headers-6.8.0-rt8 linux-image-6.8.0-rt8 linux-image-6.8.0-rt8-dbg linux-libc-dev
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.8.0-1
+Distribution: jammy
+Urgency: low
+Maintainer: root <root@kudos-NUC14SRK-B>
+Changed-By: root <root@kudos-NUC14SRK-B>
+Description:
+ linux-headers-6.8.0-rt8 - Linux kernel headers for 6.8.0-rt8 on amd64
+ linux-image-6.8.0-rt8 - Linux kernel, version 6.8.0-rt8
+ linux-image-6.8.0-rt8-dbg - Linux kernel debugging symbols for 6.8.0-rt8
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-upstream (6.8.0-1) jammy; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ b96e6ca7ae4678849b2433fedc2f590528a98075 9884506 linux-headers-6.8.0-rt8_6.8.0-1_amd64.deb
+ 5ad92da33d32923ccfc2ca98a037daac7a1bedcc 1297615414 linux-image-6.8.0-rt8-dbg_6.8.0-1_amd64.deb
+ 80d6382cc383087be815f51a6d70c2927b247439 161652638 linux-image-6.8.0-rt8_6.8.0-1_amd64.deb
+ 65da97c1e7cf7a4be3bc0a90dd8d41fab7b0ede4 1398938 linux-libc-dev_6.8.0-1_amd64.deb
+ 22f2ac3c65e716e59c3d7c40764dcda4452ba4bd 7734 linux-upstream_6.8.0-1_amd64.buildinfo
+Checksums-Sha256:
+ 8b02297d320861c8ca4f5d8dcebcda932b7850ae4deb87cc506f8a688423f2ac 9884506 linux-headers-6.8.0-rt8_6.8.0-1_amd64.deb
+ 70771726981223cfa178e009430e5d3c34a1f70fb45baf0a80bba274241f24f5 1297615414 linux-image-6.8.0-rt8-dbg_6.8.0-1_amd64.deb
+ 1b6b739a9d9640b4048ec468299414609e88b41974725b12d8f719b09a5cc527 161652638 linux-image-6.8.0-rt8_6.8.0-1_amd64.deb
+ 939c436573208d35173e7627cd11e11731c22cc50926b5ebc541c8031b1b81a1 1398938 linux-libc-dev_6.8.0-1_amd64.deb
+ 152ef6ca715e1071e6a83b145632f08335101b197c8d4d093fb1ce13079e05a8 7734 linux-upstream_6.8.0-1_amd64.buildinfo
+Files:
+ 62b7b701dd4f8f9521f80242835047c9 9884506 kernel optional linux-headers-6.8.0-rt8_6.8.0-1_amd64.deb
+ c302fecb1f5a900e6e11df6a176657fa 1297615414 debug optional linux-image-6.8.0-rt8-dbg_6.8.0-1_amd64.deb
+ a31ac6b14e00825c929b2391fb62ea47 161652638 kernel optional linux-image-6.8.0-rt8_6.8.0-1_amd64.deb
+ 5a906a56a64e76a3ae3e7da593d6c9d6 1398938 devel optional linux-libc-dev_6.8.0-1_amd64.deb
+ e72f6d217dbc30275147507050d444d8 7734 kernel optional linux-upstream_6.8.0-1_amd64.buildinfo
